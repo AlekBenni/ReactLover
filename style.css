@@ -1,0 +1,86 @@
+/*
+Theme Name: Alek Theme
+Author: Alek
+Author URI: https://www.facebook.com/alek.benni
+Description: Alek theme
+Version: 0.1
+
+*/
+
+
+ul.page-numbers{
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    background-color: white;
+}
+
+.page-numbers{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    border: 1px solid #dee2e6;
+}
+
+a.page-numbers, span.page-numbers{
+    color: #fff;
+    background-color: #282C34;   
+}
+
+a.page-numbers:hover{
+    text-decoration: none;
+}
+
+.pag_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.my_sidebar{
+    background-color: #F7F7F7;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 20px;
+}
+
+.my_sidebar h4{
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 15px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    font-weight: 600;
+}
+
+.my_sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 15px 0;
+
+}
+
+.my_sidebar ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.my_sidebar .tagcloud {
+    padding: 0 15px 15px;
+}
+
+.my_sidebar .tag-cloud-link {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
