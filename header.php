@@ -18,10 +18,10 @@
 
     <!-- Для шапки сайта -->
   <!-- <?php if(is_front_page()): ?>
-    <div class="header-image" style="background: url(<?php echo get_custom_header()->url; ?>) 
+    <test div class="header-image" style="background: url(<?php echo get_custom_header()->url; ?>) 
     center no-repeat; background-size: cover; height: 20vh;">
       <H1 class="pt-3 pb-5 text-center text-light">This site about React</H1>
-  </div>
+  </test>
 <?php endif; ?> -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
